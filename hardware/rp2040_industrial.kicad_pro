@@ -1,0 +1,84 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "other_line_width": 0.15,
+        "silk_line_width": 0.15,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15
+      },
+      "rules": {
+        "min_clearance": 0.2,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.13,
+        "min_via_diameter": 0.6
+      }
+    },
+    "layer_presets": [],
+    "layers": {
+      "0": { "color": "", "name": "F.Cu" },
+      "31": { "color": "", "name": "B.Cu" },
+      "32": { "color": "", "name": "B.Adhes" },
+      "33": { "color": "", "name": "F.Adhes" },
+      "34": { "color": "", "name": "B.Paste" },
+      "35": { "color": "", "name": "F.Paste" },
+      "36": { "color": "", "name": "B.SilkS" },
+      "37": { "color": "", "name": "F.SilkS" },
+      "38": { "color": "", "name": "B.Mask" },
+      "39": { "color": "", "name": "F.Mask" },
+      "44": { "color": "", "name": "Edge.Cuts" }
+    }
+  },
+  "meta": {
+    "filename": "rp2040_industrial.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "clearance": 0.2,
+        "name": "Default",
+        "trace_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.3,
+        "name": "Power",
+        "trace_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      }
+    ]
+  },
+  "schematic": {
+    "drawing": {
+      "default_line_thickness": 6.0,
+      "pin_symbol_size": 0.0
+    },
+    "meta": {
+      "version": 1
+    }
+  },
+  "sheets": [
+    ["", ""],
+    ["power", "Power Supply"],
+    ["mcu", "MCU RP2040"],
+    ["rs485", "RS485 4CH"],
+    ["rs232", "RS232 2CH"],
+    ["ethernet", "W5500 Ethernet"],
+    ["expansion", "Expansion IO"]
+  ],
+  "text_variables": {
+    "TITLE": "RP2040 Industrial Board",
+    "REV": "1.0",
+    "AUTHOR": "Custom Design"
+  }
+}
