@@ -37,7 +37,7 @@
     }
   },
   "meta": {
-    "filename": "rp2040_industrial.kicad_pro",
+    "filename": "rp2350b_industrial.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -70,15 +70,15 @@
   "sheets": [
     ["", ""],
     ["power", "Power Supply"],
-    ["mcu", "MCU RP2040"],
+    ["mcu", "MCU RP2350B"],
     ["rs485", "RS485 4CH"],
     ["rs232", "RS232 2CH"],
     ["ethernet", "W5500 Ethernet"],
     ["expansion", "Expansion IO"]
   ],
   "text_variables": {
-    "TITLE": "RP2040 Industrial Board",
-    "REV": "1.0",
+    "TITLE": "RP2350B Industrial Board",
+    "REV": "2.0",
     "AUTHOR": "Custom Design"
   }
 }

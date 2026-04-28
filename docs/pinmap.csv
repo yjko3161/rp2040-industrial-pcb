@@ -15,20 +15,38 @@ GPIO,Function,Interface,Block,Connected_To,Note
 13,GPIO_OUT,RS485_Ch4,통신부,SP3485_4_DE_RE,방향제어
 14,PIO1_TX,RS232_Ch1,통신부,MAX3232_T1IN,PIO1 SM0
 15,PIO1_RX,RS232_Ch1,통신부,MAX3232_R1OUT,PIO1 SM1
-16,SPI0_RX,W5500,입력부,W5500_MISO,SPI0
-17,SPI0_CSn,W5500,입력부,W5500_SCSn,SPI0
-18,SPI0_SCK,W5500,입력부,W5500_SCLK,SPI0
-19,SPI0_TX,W5500,입력부,W5500_MOSI,SPI0
-20,GPIO_IN,W5500,입력부,W5500_INTn,인터럽트 (풀업)
-21,GPIO_OUT,W5500,입력부,W5500_RSTn,리셋 (풀업)
-22,PIO1_TX,RS232_Ch2,통신부,MAX3232_T2IN,PIO1 SM2
-23,PIO1_RX,RS232_Ch2,통신부,MAX3232_R2OUT,PIO1 SM3
-24,Soft_TX,UART_LCD,확장부,LCD_TX,Bit-bang 9600baud
-25,Soft_RX,UART_LCD,확장부,LCD_RX,Bit-bang 9600baud
-26,I2C1_SDA,I2C_Sensor,확장부,Sensor_SDA,4.7k 풀업
-27,I2C1_SCL,I2C_Sensor,확장부,Sensor_SCL,4.7k 풀업
-28,ADC2,Expansion,확장부,ADC_GPIO_Header,ADC 가능
-29,ADC3,Expansion,확장부,ADC_GPIO_Header,ADC 가능
+16,PIO1_TX,RS232_Ch2,통신부,MAX3232_T2IN,PIO1 SM2
+17,PIO1_RX,RS232_Ch2,통신부,MAX3232_R2OUT,PIO1 SM3
+18,PIO2_TX,UART_LCD,확장부,LCD_TX,PIO2 SM0 (HW급 UART)
+19,PIO2_RX,UART_LCD,확장부,LCD_RX,PIO2 SM1 (HW급 UART)
+20,SPI0_RX,W5500,입력부,W5500_MISO,SPI0
+21,SPI0_CSn,W5500,입력부,W5500_SCSn,SPI0
+22,SPI0_SCK,W5500,입력부,W5500_SCLK,SPI0
+23,SPI0_TX,W5500,입력부,W5500_MOSI,SPI0
+24,GPIO_IN,W5500,입력부,W5500_INTn,인터럽트 (10k 풀업)
+25,GPIO_OUT,W5500,입력부,W5500_RSTn,리셋 (10k 풀업 + 100nF)
+26,ADC0,ADC,확장부,ADC_Header,아날로그 입력
+27,ADC1,ADC,확장부,ADC_Header,아날로그 입력
+28,ADC2,ADC,확장부,ADC_Header,아날로그 입력
+29,ADC3,ADC,확장부,ADC_Header,아날로그 입력
+30,GPIO,Expansion,확장부,GPIO_Header,여유 GPIO
+31,GPIO,Expansion,확장부,GPIO_Header,여유 GPIO
+32,I2C0_SDA,I2C_Sensor,확장부,Sensor_SDA,4.7k 풀업
+33,I2C0_SCL,I2C_Sensor,확장부,Sensor_SCL,4.7k 풀업
+34,I2C1_SDA,I2C_Exp,확장부,I2C_Exp_Header_SDA,4.7k 풀업 (확장 I2C)
+35,I2C1_SCL,I2C_Exp,확장부,I2C_Exp_Header_SCL,4.7k 풀업 (확장 I2C)
+36,GPIO,Expansion,확장부,GPIO_Header,여유 GPIO
+37,GPIO,Expansion,확장부,GPIO_Header,여유 GPIO
+38,GPIO,Expansion,확장부,GPIO_Header,여유 GPIO
+39,GPIO,Expansion,확장부,GPIO_Header,여유 GPIO
+40,SPI1_RX,SPI_Exp,확장부,SPI_Exp_MISO,SPI1 확장포트
+41,SPI1_CSn,SPI_Exp,확장부,SPI_Exp_CS,SPI1 확장포트
+42,SPI1_SCK,SPI_Exp,확장부,SPI_Exp_SCK,SPI1 확장포트
+43,SPI1_TX,SPI_Exp,확장부,SPI_Exp_MOSI,SPI1 확장포트
+44,GPIO,Expansion,확장부,GPIO_Header,여유 GPIO
+45,GPIO,Expansion,확장부,GPIO_Header,여유 GPIO
+46,GPIO,Expansion,확장부,GPIO_Header,여유 GPIO
+47,GPIO,Expansion,확장부,GPIO_Header,여유 GPIO
 QSPI,QSPI_Bus,SPI_Flash,제어부,W25Q128_16MB,전용핀
 USB,USB_D+_D-,USB-C,제어부,Debug_UF2,전용핀
 SWD,SWDIO_SWCLK,SWD_Header,제어부,Debug_Probe,전용핀
